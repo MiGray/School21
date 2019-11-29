@@ -8,7 +8,7 @@ import datetime
 
 now = datetime.datetime.now()
 
-FILENAME = "cmc" + now.isoformat() + ".csv"
+FILENAME = "/home/mi/cmc/cmc" + now.isoformat() + ".csv"
 
 url = 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest'
 parameters = {
